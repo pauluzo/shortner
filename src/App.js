@@ -48,11 +48,11 @@ function App() {
           <div className="App-output">
             <div className='url-container'>
               <span className='label'>Short Url:</span> 
-              <span className='url'><a target='_blank' href={`https://${output.link1}`}>{output.link1}</a></span>
+              <span className='url'><a target='_blank' rel="noreferrer" href={`https://${output.link1}`}>{output.link1}</a></span>
             </div>
             <div className='url-container'>
               <span className='label'>Short Url 2:</span> 
-              <span className='url'><a target='_blank' href={`https://${output.link2}`}>{output.link2}</a></span>
+              <span className='url'><a target='_blank' rel="noreferrer" href={`https://${output.link2}`}>{output.link2}</a></span>
             </div>
           </div>
         </div>
